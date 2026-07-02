@@ -12,7 +12,11 @@ Repos here are private. To get in:
 
 ## Setup (do this once, after joining)
 
-**Never used GitHub before? You don't need to learn it.** Open the **Code tab** in Claude Desktop and paste this in — Claude will check your computer, install anything missing, and walk you through each step:
+**Never used GitHub before? You don't need to learn it.** Just make sure you're in the right place first:
+
+> Look at the top of the Claude Desktop window. There are three tabs: **Chat**, **Cowork**, and **Code**. The steps below only work in **Code** — click that tab, then paste prompts into its chat box, not into a Chat or Cowork conversation. If you paste a `/plugin` command anywhere else, you'll get an error saying it's "not available in this environment" — that just means you're in the wrong tab, click over to Code and try again.
+
+Once you're in the Code tab, paste this in — Claude will check your computer, install anything missing, and walk you through each step:
 
 > I'm a new teammate at P4-Product-Design getting set up for the first time. Please help me: (1) check whether I have git and the GitHub CLI installed, install whatever's missing, and log me into GitHub so my computer can access our private repos, (2) check whether I have Figma connected in Claude Desktop and walk me through connecting it if not, and (3) once both of those work, add P4-Product-Design/figma-to-shopify-liquid as a plugin marketplace and install the figma-to-shopify-liquid plugin. Walk me through one step at a time and confirm each one works before moving to the next.
 
