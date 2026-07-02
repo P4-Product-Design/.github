@@ -4,56 +4,43 @@ Internal home for Swolverine's design-to-code tooling — Claude Code/Desktop pl
 
 ## Getting access
 
-Repos here are private. To get in:
+Our plugin repos are public, so **you don't need to join the org just to install and use a plugin** — skip straight to **Setup** below.
 
-1. **Message Chance with your GitHub username** and ask for an invite to the org.
-2. You'll get an email with an invite link — accept it (expires after 7 days, so ping again if it lapses).
-3. Once you're in, follow **Setup** below. Everything past this point is self-service — you shouldn't need to ask anyone anything else to get running.
+You only need an invite if you want to contribute — push a new skill, fix something in an existing one, or create a new repo here. If that's you, message Chance with your GitHub username for an org invite (you'll get an email link to accept, good for 7 days).
 
-## Setup (do this once, after joining)
+## Setup (do this once)
 
-**Never used GitHub before? You don't need to learn it.** Just make sure you're in the right place first:
+**Never used GitHub before? You don't need to learn it.** Two ways to install a plugin — pick whichever feels easier.
 
-> Look at the top of the Claude Desktop window. There are three tabs: **Chat**, **Cowork**, and **Code**. The steps below only work in **Code** — click that tab, then paste prompts into its chat box, not into a Chat or Cowork conversation. If you paste a `/plugin` command anywhere else, you'll get an error saying it's "not available in this environment" — that just means you're in the wrong tab, click over to Code and try again.
+### Option A: point-and-click (recommended if you're not sure)
 
-Once you're in the Code tab, paste this in — Claude will check your computer, install anything missing, and walk you through each step:
+1. In Claude Desktop, click **Customize** in the sidebar.
+2. Next to **Personal plugins**, click **+** → **Add** → **Add marketplace**.
+3. Paste `P4-Product-Design/figma-to-shopify-liquid` into the URL field and click **Sync**.
+4. This only adds the marketplace — it doesn't install the plugin yet. Click **Plugins** in the Customize sidebar to open the Directory, find the `figma-to-shopify-liquid` tab, and click the **+** on its card to actually install it.
 
-> I'm a new teammate at P4-Product-Design getting set up for the first time. Please help me: (1) check whether I have git and the GitHub CLI installed, install whatever's missing, and log me into GitHub so my computer can access our private repos, (2) check whether I have Figma connected in Claude Desktop and walk me through connecting it if not, and (3) once both of those work, add P4-Product-Design/figma-to-shopify-liquid as a plugin marketplace and install the figma-to-shopify-liquid plugin. Walk me through one step at a time and confirm each one works before moving to the next.
+### Option B: type it in the Code tab
 
-That's it for most people. The breakdown below is for anyone who wants to understand what's happening, redo just one step, or got stuck partway through.
-
-### 1. Authenticate git to GitHub on your machine
-
-Being an org member isn't enough on its own — your computer separately needs a way to prove it's you when it fetches a private repo. If you want to do this on your own instead of the prompt above:
-
-> Help me install the GitHub CLI if I don't have it, then log me into GitHub with it so my computer can access a private GitHub organization called P4-Product-Design.
-
-(Under the hood this is `gh auth login` — fine to run yourself in a terminal if you're comfortable with that instead.)
-
-### 2. Get Figma access connected
-
-Our plugins read designs straight from Figma. If you're doing Figma-to-code work:
-
-> Help me connect my Figma account to Claude Desktop so design skills can read Figma files. Walk me through it step by step.
-
-### 3. Install a plugin
-
-> Add P4-Product-Design/figma-to-shopify-liquid as a Claude plugin marketplace and install the figma-to-shopify-liquid plugin from it.
-
-Or type the same thing as commands directly in the Code tab:
+Look at the top of the Claude Desktop window — there are three tabs: **Chat**, **Cowork**, **Code**. This only works in **Code** (typing it elsewhere gives a "not available in this environment" error — that just means you're in the wrong tab). In the Code tab, type:
 
 ```
 /plugin marketplace add P4-Product-Design/figma-to-shopify-liquid
 /plugin install figma-to-shopify-liquid@figma-to-shopify-liquid
 ```
 
-For future repos added here, swap the repo/plugin name — check that repo's own README for its exact name. Installed plugins show up under **Customize → Manage plugins** in the Code tab, where you can update or remove them later.
+Either way, it shows up under **Customize → Manage plugins** afterward, where you can update or remove it. For future repos added here, swap in that repo's name — check its own README to confirm the exact plugin name.
+
+### Also worth doing: connect Figma
+
+Our plugins read designs straight from Figma. If you're doing Figma-to-code work, paste this into any Claude Desktop tab:
+
+> Help me connect my Figma account to Claude Desktop so design skills can read Figma files. Walk me through it step by step.
 
 ### Stuck?
 
-If you get a "marketplace not found" error, that always means step 1 didn't happen yet — it's not a permissions problem. Paste this in:
+Paste this in wherever you got stuck:
 
-> I'm trying to install a Claude plugin from a private GitHub org called P4-Product-Design and got a "marketplace not found" error. Help me figure out why and fix it.
+> I'm trying to install a Claude plugin called figma-to-shopify-liquid from the P4-Product-Design GitHub org and it's not working. Help me figure out why and fix it.
 
 ## Current repos
 
