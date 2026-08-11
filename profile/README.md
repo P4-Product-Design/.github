@@ -48,6 +48,7 @@ Paste this in wherever you got stuck:
 |---|---|
 | [figma-to-shopify-liquid](https://github.com/P4-Product-Design/figma-to-shopify-liquid) | Converts a Figma design into a pixel-exact Shopify Liquid section/block, with matching docs and a static preview. |
 | [dev-handoff](https://github.com/P4-Product-Design/dev-handoff) | Turns a Figma design into an engineer-ready handoff — Requirements and Dev Spec frames plus native Dev Mode breakpoint annotations written back into the file. |
+| [figma-to-optimizely](https://github.com/P4-Product-Design/figma-to-optimizely-plugin) | Turns a Figma design into production-ready Optimizely Web Experiment widgets (HTML, CSS, JS, widget.json) with a local preview server. |
 
 ## Questions
 
