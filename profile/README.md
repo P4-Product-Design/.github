@@ -1,4 +1,4 @@
-# P4-Product-Design
+# P4-Product
 
 Internal home for Swolverine's design-to-code tooling — Claude Code/Desktop plugins that turn Figma designs into production-ready code, plus other team automation as it gets built.
 
