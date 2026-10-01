@@ -51,6 +51,7 @@ Paste this in wherever you got stuck:
 | [figma-to-optimizely](https://github.com/P4-Product-Design/figma-to-optimizely-plugin) | Turns a Figma design into production-ready Optimizely Web Experiment widgets (HTML, CSS, JS, widget.json) with a local preview server. |
 | [product-block-gatherer](https://github.com/P4-Product-Design/product-block-gatherer) | Gathers and fills product block data for Fortune Shop and NCOA Shop pages, outputting a Product Block Lite and Foundational Product Block as a Word document. |
 | [qual-research-simulator](https://github.com/P4-Product-Design/qual-research-simulator) | Simulates qualitative user research sessions against a Figma design using data-grounded personas that react independently, like real participants in a usability study. |
+| [swolverine-product-photos](https://github.com/P4-Product-Design/swolverine-product-photos) | Turns raw Swolverine studio shots into website-ready product images — a cut-out on a transparent canvas with the house tone curve and a faint reflection, no generative fill. Needs a Mac with Photoshop 2026. |
 
 ## Questions
 
