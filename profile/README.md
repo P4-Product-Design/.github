@@ -19,16 +19,8 @@ You only need an invite if you want to contribute — push a new skill, fix some
 3. Paste `P4-Product-Design/figma-to-shopify-liquid` into the URL field and click **Sync**.
 4. This only adds the marketplace — it doesn't install the plugin yet. Click **Plugins** in the Customize sidebar to open the Directory, find the `figma-to-shopify-liquid` tab, and click the **+** on its card to actually install it.
 
-### Option B: type it in the Code tab
 
-Look at the top of the Claude Desktop window — there are three tabs: **Chat**, **Cowork**, **Code**. This only works in **Code** (typing it elsewhere gives a "not available in this environment" error — that just means you're in the wrong tab). In the Code tab, type:
-
-```
-/plugin marketplace add P4-Product-Design/figma-to-shopify-liquid
-/plugin install figma-to-shopify-liquid@figma-to-shopify-liquid
-```
-
-Either way, it shows up under **Customize → Manage plugins** afterward, where you can update or remove it. For future repos added here, swap in that repo's name — check its own README to confirm the exact plugin name.
+The plugin shows up under **Customize → Manage plugins** afterward, where you can update or remove it. For future repos added here, swap in that repo's name — check its own README to confirm the exact plugin name.
 
 ### Also worth doing: connect Figma
 
