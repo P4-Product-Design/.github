@@ -1,6 +1,6 @@
 # P4 Product Design
 
-Claude plugins for the P4 Product Design team: Figma-to-code, dev handoff, research, content, and product photos. Every plugin lives in one repo, **[claude-plugins](https://github.com/P4-Product-Design/claude-plugins)**, and installs from one marketplace.
+Claude plugins for the P4 Product Design team: Figma-to-code, design audits, dev handoff, research, content, and product photos. Every plugin lives in one repo, **[claude-plugins](https://github.com/P4-Product-Design/claude-plugins)**, and installs from one marketplace.
 
 ## Install (one time, per person)
 
@@ -17,6 +17,7 @@ New versions arrive on their own. If you installed P4 plugins before October 202
 
 | Plugin | What it does | Owner |
 |---|---|---|
+| [design-audit](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/design-audit) | Audits a Figma design, live page, or email against page-type best practices and UX laws, then adds prioritized notes to Figma. | Chance Chipman |
 | [dev-handoff](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/dev-handoff) | Turns a Figma design into an engineer-ready handoff, with spec frames and Dev Mode annotations. | Chance Chipman |
 | [figma-to-optimizely](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/figma-to-optimizely) | Turns a Figma design into an Optimizely Web Experiment widget with a local preview. | Andy Ramos |
 | [figma-to-shopify-liquid](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/figma-to-shopify-liquid) | Converts a Figma design into a pixel-exact Shopify Liquid section or block. | Chance Chipman |
