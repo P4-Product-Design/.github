@@ -13,6 +13,24 @@ You don't need a GitHub account or any GitHub knowledge.
 
 New versions arrive on their own. If you installed P4 plugins before October 2026, remove those old plugins and marketplaces in **Customize → Manage plugins** first. The [claude-plugins README](https://github.com/P4-Product-Design/claude-plugins#readme) has typed commands and troubleshooting.
 
+## Add a new plugin or get the latest version
+
+**Already added the marketplace?** Don't add it again. Claude will say it's already added. Instead, refresh the marketplace so new plugins and versions show up:
+
+1. In Claude Desktop, click **Customize** → **Plugins**, then open the **P4 Product Design** tab.
+2. Click the **Add** dropdown → **Manage marketplaces**.
+3. Find **P4 Product Design**, click the **⋯** next to it, and click **Update**.
+4. Go back to the **Plugins** tab and click **+** on the new plugin.
+
+Do the same update whenever a teammate announces a new plugin or version that you don't see yet.
+
+**Typed commands (Code tab only):**
+
+```
+/plugin marketplace update p4-product-design
+/plugin install <plugin-name>@p4-product-design
+```
+
 ## Plugins
 
 | Plugin | What it does | Owner |
