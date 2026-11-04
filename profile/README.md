@@ -43,7 +43,7 @@ Do the same update whenever a teammate announces a new plugin or version that yo
 | [product-block-gatherer](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/product-block-gatherer) | Fills product block data for Fortune Shop and NCOA Shop pages as a Word document. | Audrey McGlynn |
 | [qual-research-simulator](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/qual-research-simulator) | Runs a Figma design past data-grounded personas, like a simulated usability study. | Audrey McGlynn |
 | [swolverine-product-photos](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/swolverine-product-photos) | Turns raw Swolverine studio shots into website-ready product images. | Chance Chipman |
-| [wordpress-image-prep](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/wordpress-image-prep) | Turns Central Testing photos into WordPress-ready WebP images with SEO file names for the Sleep sites. | Chance Chipman |
+| [wordpress-image-prep](https://github.com/P4-Product-Design/claude-plugins/tree/main/plugins/wordpress-image-prep) | Turns Central Testing photos into WordPress-ready WebP images with SEO file names and draft alt text for the Sleep and Fitness sites. | Chance Chipman |
 
 **Connect Figma first** if you'll do Figma work. Paste this into any Claude Desktop tab:
 
